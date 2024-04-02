@@ -1,0 +1,127 @@
+nav-black{
+    width: $content-width;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  
+    .links {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+  
+      .nav-logo {
+        background-image: url(../images/logo.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 7%;
+        height: 42px; //if I use a percent the image disappears for some reason
+        margin-bottom: 2%;
+        margin-top: 3%;
+      
+        }
+  
+      .links-nav {
+        min-width: 30.5%;
+        height: 42px; //doesn't matter what percent I put in here is wont move any farther down
+        margin-bottom: 2%;
+        margin-top: 5%;
+          
+        .nav-name {
+          padding-left: 19px; //can't get it to align right with a percent
+        }
+  
+        a {
+          text-decoration: none;
+          color: black;
+          font-size: 20px;
+          font-family: GillSansregular;
+        }
+      }
+    }
+  
+    .line {
+      border: none;
+      height: 2px;
+      width: 70%;
+      background-color: black;
+      margin: auto;
+    }
+  }
+  
+  @media all and (max-width: 920px) {
+    nav {
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      
+      .links {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: -9%;
+  
+        .nav-logo {
+          margin-right: 19%;
+          margin-left: 19%;
+        }
+        
+        .links-nav {
+          .nav-name {
+  
+          }
+          
+          a {
+  
+          }
+        }
+      }
+      
+      .line {
+        
+      }
+    }
+    }
+  
+    @media all and (max-width: 770px) {
+      nav {
+        width: 95%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        
+        .links {
+          display: flex;
+          justify-content: flex-start;
+          margin-left: -15.5%;
+    
+          .nav-logo {
+            margin-right: 25%;
+            margin-left: 0%;
+          }
+          
+          .links-nav {
+            .nav-name {
+    
+            }
+            
+            a {
+    
+            }
+          }
+        }
+        
+        .line {
+          
+        }
+      }
+      }
+    
+      
+      
+    

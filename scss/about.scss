@@ -1,0 +1,119 @@
+.about {
+    max-width: $content-width;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+
+    .wrapper {
+
+        .line {
+            border: none;
+            height: 3px;
+            width: 23%;
+            background-color: black;
+            position: absolute;
+            left: 14%;
+
+
+        }
+
+        h2 {
+            font-size: 3em;
+            font-family: GillSans-Light;
+
+        }
+        .about-content {
+            align-items: center;
+            margin-top: 150px;
+            margin-bottom: 150px;
+
+            .line {
+                border: none;
+                height: 3px;
+                width: 15%;
+                background-color: black;
+                margin: auto;
+            }
+
+            p {
+                font-size: 1.3em;
+                font-family: GillSans-Light;
+            }
+
+            h1 {
+                font-size: 4em;
+                font-family: GillSans-Light;
+            }
+        }
+    
+        .about-quotes1 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            margin-left: -100px;
+            margin-bottom: -190px;
+
+
+
+            .left-box {
+                background-image: url(../images/about-client-01.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                width: 40%;
+                height: 200px; //if I use a percent the image disappears for some reason
+                margin-bottom: 2%;
+                margin-top: 3%;
+
+            }
+
+            .quote-text {
+                width: 35%;
+                height: 400px;
+                font-size: 1em;
+                font-family: GillSans-Light;
+                margin-top: 80px;
+
+                p.name {
+                    color: $site-blue;
+                    margin-left: 65%;
+                    font-size: 1.2em;
+                }
+            }
+        }
+
+        .about-quotes2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            margin-left: -100px;
+
+            .left-box2 {
+                background-image: url(../images/about-client-02.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                width: 40%;
+                height: 200px; //if I use a percent the image disappears for some reason
+                margin-bottom: 2%;
+                margin-top: 3%;
+            }
+
+            .quote-text2 {
+                width: 35%;
+                height: 400px;
+                font-family: GillSans-Light;
+                margin-top: 80px;
+
+                p.name {
+                    color: $site-blue;
+                    margin-left: 65%;
+                    font-size: 1.2em;
+                }
+            }
+        }
+    }
+
+    
+}

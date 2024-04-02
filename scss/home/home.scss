@@ -1,0 +1,1067 @@
+.home {
+    .wrapper {
+        max-width: 100%;
+        margin: 0 auto;
+        .hero {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hero.jpg);
+            width: 100%;
+            height: 400px; //can't get it to work with a percent
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0 auto;
+        }
+    
+        .hero-textbox {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding-top: 170px;
+    
+    
+    
+            .heading {
+                font-size: 60px;
+                color: $site-white;
+                font-family: ProximaNova;
+    
+            }
+    
+            .hero-text {
+                width: 35%;
+                height: 46px;
+                font-size: 20px;
+                font-family: GillSansItalic;
+                color: $site-white;
+                text-align: center;
+    
+            }
+    
+            .hero-button {
+                margin: 1.5%;
+                width: 10%;
+                height: 41px;
+                background-color: $site-blue;
+                text-align: center;
+                padding-top: 10px;
+
+
+                a {
+                    color: $site-white;
+                    text-decoration: none;
+                }
+            }
+    
+        }
+        
+        .specials {
+            width: $home-content-width;
+            margin: -2% auto 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+    
+            .box1 {
+                height: 304px;
+                width: 29%;
+                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/content1.jpg);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+    
+                .box1-text {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    padding-top: 18%;
+    
+    
+                    .location {
+                        font-size: 40px;
+                        font-family: ProximaNova;
+                        color: $site-white;
+                    }
+    
+                    .price {
+                        font-size: 20px;
+                        font-family: ProximaNova;
+                        color: $site-white;
+                        padding-bottom: 35%;
+                    }
+    
+                    .learn-more {
+                        width: 60%;
+                        height: 40px;
+                        background-color: $site-blue;
+                        border-radius: 20px;
+                        text-align: center;
+                        padding-top: 4.5%;
+                    }
+    
+                    .learn-more a {
+                        text-decoration: none;
+                        color: $site-white;
+                    }
+                }
+            }
+    
+            .box2 {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/content2.jpg);
+                width: 29%;
+                height: 304px;
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+    
+                .box1-text {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    padding-top: 18%;
+    
+                    .location {
+                        font-size: 40px;
+                        font-family: ProximaNova;
+                        color: $site-white;
+                    }
+    
+                    .price {
+                        font-size: 20px;
+                        font-family: ProximaNova;
+                        color: $site-white;
+                        padding-bottom: 35%;
+                    }
+    
+                    .learn-more {
+                        width: 60%;
+                        height: 40px;
+                        background-color: $site-blue;
+                        border-radius: 20px;
+                        text-align: center;
+                        padding-top: 4.5%;
+    
+                    }
+    
+                    .learn-more a {
+                        text-decoration: none;
+                        color: $site-white;
+                    }
+                }
+            }
+    
+            .box3 {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/content3.jpg);
+                width: 29%;
+                height: 304px;
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+    
+                .box1-text {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    padding-top: 18%;
+    
+                    .location {
+                        font-size: 40px;
+                        font-family: ProximaNova;
+                        color: $site-white;
+                    }
+    
+                    .price {
+                        font-size: 20px;
+                        font-family: ProximaNova;
+                        color: $site-white;
+                        padding-bottom: 35%;
+                    }
+    
+                    .learn-more {
+                        width: 60%;
+                        height: 40px;
+                        background-color: $site-blue;
+                        border-radius: 20px;
+                        text-align: center;
+                        padding-top: 4.5%;
+                    }
+    
+                    .learn-more a {
+                        text-decoration: none;
+                        color: $site-white;
+                    }
+                }
+            }
+        }
+    
+        .form {
+            width: $home-content-width;
+            margin: 0 auto;
+            min-height: 24.5%;
+    
+            h2 {
+                padding-top: 5%;
+                font-size: 40px;
+                font-family: ProximaNova;
+            }
+    
+            .form-info {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                width: $home-content-width;
+    
+                .name {
+                    height: 58px;
+                    width: 42%;
+                    border: 2px solid;
+                    border-color: $site-blue;
+                    font-family: GillSansregular;
+                    font-size: 18px;
+                    margin-bottom: 2%;
+                    padding-left: 1%;
+                }
+    
+                .email {
+                    height: 58px;
+                    width: 55.5%;
+                    border: 2px solid;
+                    border-color: $site-blue;
+                    font-family: GillSansregular;
+                    font-size: 18px;
+                    margin-bottom: 2%;
+                    padding-left: 1%;
+                }
+    
+                .country {
+                    height: 58px;
+                    width: 42%;
+                    border: 2px solid;
+                    border-color: $site-blue;
+                    font-family: GillSansregular;
+                    font-size: 18px;
+                    margin-bottom: 2%;
+                    padding-left: 1%;
+                }
+    
+                .hotel {
+                    height: 58px;
+                    width: 55.5%;
+                    border: 2px solid;
+                    border-color: $site-blue;
+                    font-family: GillSansregular;
+                    font-size: 18px;
+                    margin-bottom: 2%;
+                    padding-left: 1%;
+                }
+            }
+    
+            .checkin-box {
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+    
+                .check {
+    
+                }
+    
+                .checkin {
+                    height: 58px;
+                    width: 85%;
+                    border: 2px solid;
+                    border-color: $site-blue;
+                    font-family: GillSansregular;
+                    font-size: 18px;
+                    margin-bottom: 2%;
+                    position: relative;
+                    padding-left: 1%;
+                }
+    
+                .cal-box {
+                    background-image: url(../images/calendar.svg);
+                    background-position: center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    width: 19px;
+                    height: 19px;
+                    position: absolute;
+                    right: 2.5%;
+                    bottom: 50%;
+                }
+            }
+    
+            .checkout-box {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                position: relative;
+    
+                .check2 {
+    
+                }
+    
+                .checkin2 {
+                    height: 58px;
+                    width: 85%;
+                    border: 2px solid;
+                    border-color: $site-blue;
+                    font-family: GillSansregular;
+                    font-size: 18px;
+                    margin-bottom: 2%;
+                    padding-left: 1%;
+                }
+    
+                .cal-box {
+                    background-image: url(../images/calendar.svg);
+                    background-position: center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    width: 19px;
+                    height: 19px;
+                    position: absolute;
+                    right: 2.5%;
+                    bottom: 50%;
+                }
+            }
+    
+            .party-size {
+                .party-padding {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-bottom: 2%;
+    
+                    .party-input-box {
+                        position: relative;
+                    }
+    
+                    .party-label {
+                        margin-right: 82px;
+                    }
+    
+                    .party-input {
+                        height: 58px;
+                        width: 103px;
+                        border: 2px solid;
+                        border-color: $site-blue;
+                        font-family: GillSansregular;
+                        font-size: 18px;
+                        padding-left: 10px;
+                    }
+                }
+    
+                .arrow i{
+                    background-position: center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    width: 19px;
+                    height: 19px;
+                    position: absolute;
+                    right: 20px;
+                    bottom: 20px;
+                }
+            }
+    
+            .message-box {
+    
+                .message {
+                    height: 192px;
+                    width: 100%;
+                    border: 2px solid;
+                    border-color: $site-blue;
+                    font-family: GillSansregular;
+                    font-size: 18px;
+                    padding-bottom: 15%;
+                    padding-left: 2.5%;
+                    margin-bottom: 2.5%;
+                }
+            }
+    
+            .submit-box {
+                margin-bottom: 100px;
+    
+                .submit {
+                    width: 99%;
+                    height: 75px;
+                    background-color: $site-blue;
+                    border-radius: 30px;
+                    text-align: center;
+                    padding-top: 3%;
+                    font-size: 15px;
+                    font-family: GillSansregular;
+                    color: $site-white;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width: 920px) {
+    .home {
+        .wrapper {
+            .hero {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hero.jpg);
+                width: 85%;
+                height: 44%;
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                margin: 0 auto;
+            }
+    
+            .specials {
+                flex-direction: row;
+                width: $home-content-width;
+                display: flex;
+    
+                .box1 {
+                    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/content1.jpg);
+                    margin-bottom: 30px;
+                    width: 26%;
+                    height: 33%;
+                    background-position: center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+    
+                    .box1-text {
+    
+                        .location {
+    
+                        }
+    
+                        .price {
+    
+                        }
+    
+                        .learn-more {
+    
+                        }
+                        
+                        .learn-more a {
+    
+                        }
+                    }
+                }
+    
+                .box2 {
+                    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/content2.jpg);
+                    width: 26%;
+                    height: 33%;
+                    background-position: center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    margin-bottom: 30px;
+    
+                    .box1-text {
+    
+                        .location {
+    
+                        }
+    
+                        .price {
+    
+                        }
+    
+                        .learn-more {
+    
+                        }
+    
+                        .learn-more a {
+    
+                        }
+                    }
+                }
+    
+                .box3 {
+                    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/content3.jpg);
+                    width: 26%;
+                    height: 33%;
+                    background-position: center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    margin-bottom: 3%;
+    
+                    .box1-text {
+    
+                        .location {
+    
+                        }
+    
+                        .price {
+    
+                        }
+    
+                        .learn-more {
+    
+                        }
+    
+                        .learn-more a {
+    
+                        }
+                    }
+                }
+            }
+    
+            .hero-textbox {
+    
+                .heading {
+    
+                }
+    
+                .hero-text {
+    
+                }
+    
+                .hero-button {
+    
+                }
+            }
+    
+            .form {
+                width: 83%;
+                margin: 0 auto;
+                min-height: 22%;
+                align-items: center;
+                justify-content: center;
+    
+                h2 {
+                    padding-top: 40px;
+                    font-size: 40px;
+                    font-family: ProximaNova;
+                }
+    
+                .form-info {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    width: 65%;
+    
+                    .name {
+                        height: 6%;
+                        width: 37%;
+                        border: 2px solid;
+                        border-color: $site-blue;
+                        font-family: GillSansregular;
+                        font-size: 18px;
+                        margin-bottom: 2%;
+                        padding-left: 1%;
+                    }
+    
+                    .email {
+                        height: 6%;
+                        width: 49%;
+                        border: 2px solid;
+                        border-color: $site-blue;
+                        font-family: GillSansregular;
+                        font-size: 18px;
+                        margin-bottom: 2%;
+                        padding-left: 1%;
+                    }
+    
+                    .country {
+                        height: 6%;
+                        width: 37%;
+                        border: 2px solid;
+                        border-color: $site-blue;
+                        font-family: GillSansregular;
+                        font-size: 18px;
+                        margin-bottom: 2%;
+                        padding-left: 1%;
+                    }
+    
+                    .hotel {
+                        height: 6%;
+                        width: 49%px;
+                        border: 2px solid;
+                        border-color: $site-blue;
+                        font-family: GillSansregular;
+                        font-size: 18px;
+                        margin-bottom: 2%;
+                        padding-left: 1%;
+                    }
+                }
+    
+                .checkin-box {
+                    position: relative;
+                    display: block;
+    
+                    .check {
+    
+                    }
+    
+                    .checkin {
+                        height: 6%;
+                        width: 54%;
+                        border: 2px solid;
+                        border-color: $site-blue;
+                        font-family: GillSansregular;
+                        font-size: 18px;
+                        margin-bottom: 2%;
+                        position: relative;
+                        padding-left: 1%;
+                    }
+    
+                    .cal-box {
+                        background-image: url(../images/calendar.svg);
+                        background-position: center;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        width: 19px;
+                        height: 19px;
+                        position: absolute;
+                        right: 25%;
+                        bottom: 4%;
+                        display: none;
+                    }
+                }
+    
+                .checkout-box {
+                    display: block;
+                    position: relative;
+    
+                    .check2 {
+    
+                    }
+    
+                    .checkin2 {
+                        height: 6%;
+                        width: 54%;
+                        border: 2px solid;
+                        border-color: $site-blue;
+                        font-family: GillSansregular;
+                        font-size: 18px;
+                        margin-bottom: 2%;
+                        padding-left: 1%;
+                    }
+    
+                    .cal-box {
+                        background-image: url(../images/calendar.svg);
+                        background-position: center;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        width: 19px;
+                        height: 19px;
+                        position: absolute;
+                        right: 25%;
+                        bottom: 4%;
+                        display: none;
+                    }
+                }
+    
+                .party-size {
+    
+                    .party-padding {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        margin-bottom: 2%;
+                        width: 22%;
+                        flex-wrap: wrap;
+    
+                        .party-input-box {
+                            position: relative;
+                            margin-bottom: 2%;
+                        }
+    
+                        .party-label {
+                            margin-right: 82px;
+                        }
+    
+                        .party-input {
+                            height: 6%;
+                            width: 11%;
+                            border: 2px solid;
+                            border-color: $site-blue;
+                            font-family: GillSansregular;
+                            font-size: 18px;
+                            padding-left: 1%;
+                        }
+                    }
+    
+                    .arrow i{
+                        background-position: center;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        width: 19px;
+                        height: 19px;
+                        position: absolute;
+                        left: 6.5%;
+                        bottom: 2%;
+                        display: none;
+                    }
+                }
+    
+                .message-box {
+    
+                    .message {
+                        height: 21%;
+                        width: 65%;
+                        border: 2px solid;
+                        border-color: $site-blue;
+                        font-family: GillSansregular;
+                        font-size: 18px;
+                        padding-bottom: 12%;
+                        padding-left: 2%;
+                        margin-bottom: 2%;
+                    }
+                }
+    
+                .submit-box {
+                    margin-bottom: 100px;
+    
+                    .submit {
+                        width: 11%;
+                        height: 8%;
+                        background-color: $site-blue;
+                        border-radius: 30px;
+                        text-align: center;
+                        padding-top: 30px;
+                        font-size: 15px;
+                        font-family: GillSansregular;
+                        color: $site-white;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width: 770px) {
+    .home {
+        .wrapper {
+            .hero {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hero.jpg);
+                width: 99%;
+                height: 52%;
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                margin: 0 auto;
+            }
+    
+            .specials {
+                flex-direction: column;
+                width: $home-content-width;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0 auto;
+    
+                .box1 {
+                    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/content1.jpg);
+                    margin-bottom: 3%;
+                    width: 30.5%;
+                    height: 39.5%;
+                    background-position: center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+    
+                    .box1-text {
+    
+                        .location {
+    
+                        }
+    
+                        .price {
+    
+                        }
+    
+                        .learn-more {
+    
+                        }
+                        
+                        .learn-more a {
+    
+                        }
+                    }
+                }
+    
+                .box2 {
+                    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/content2.jpg);
+                    width: 30.5%;
+                    height: 39.5%;
+                    background-position: center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    margin-bottom: 3%;
+    
+                    .box1-text {
+    
+                        .location {
+    
+                        }
+    
+                        .price {
+    
+                        }
+    
+                        .learn-more {
+    
+                        }
+    
+                        .learn-more a {
+    
+                        }
+                    }
+                }
+    
+                .box3 {
+                    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/content3.jpg);
+                    width: 30.5%;
+                    height: 39.5%;
+                    background-position: center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    margin-bottom: 3%;
+    
+                    .box1-text {
+    
+                        .location {
+    
+                        }
+    
+                        .price {
+    
+                        }
+    
+                        .learn-more {
+    
+                        }
+    
+                        .learn-more a {
+    
+                        }
+                    }
+                }
+            }
+    
+            .hero-textbox {
+    
+                .heading {
+    
+                }
+    
+                .hero-text {
+    
+                }
+    
+                .hero-button {
+    
+                }
+            }
+    
+            .form {
+                width: 99%;
+                margin: 0 auto;
+                min-height: 26%;
+                align-items: center;
+                justify-content: center;
+    
+                h2 {
+                    padding-top: 4%;
+                    font-size: 40px;
+                    font-family: ProximaNova;
+                }
+    
+                .form-info {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    width: 78%;
+    
+                    .name {
+                        height: 7.5%;
+                        width: 44.5%;
+                        border: 2px solid;
+                        border-color: $site-blue;
+                        font-family: GillSansregular;
+                        font-size: 18px;
+                        margin-bottom: 2%;
+                        padding-left: 1%;
+                    }
+    
+                    .email {
+                        height: 7.5%;
+                        width: 59%;
+                        border: 2px solid;
+                        border-color: $site-blue;
+                        font-family: GillSansregular;
+                        font-size: 18px;
+                        margin-bottom: 2%;
+                        padding-left: 1%;
+                    }
+    
+                    .country {
+                        height: 7.5%;
+                        width: 44.5%;
+                        border: 2px solid;
+                        border-color: $site-blue;
+                        font-family: GillSansregular;
+                        font-size: 18px;
+                        margin-bottom: 2%;
+                        padding-left: 1%;
+                    }
+    
+                    .hotel {
+                        height: 7.5%;
+                        width: 59%;
+                        border: 2px solid;
+                        border-color: $site-blue;
+                        font-family: GillSansregular;
+                        font-size: 18px;
+                        margin-bottom: 2%;
+                        padding-left: 1%;
+                    }
+                }
+    
+                .checkin-box {
+                    position: relative;
+                    display: block;
+    
+                    .check {
+    
+                    }
+    
+                    .checkin {
+                        height: 7.5%;
+                        width: 65%;
+                        border: 2px solid;
+                        border-color: $site-blue;
+                        font-family: GillSansregular;
+                        font-size: 18px;
+                        margin-bottom: 2%;
+                        position: relative;
+                        padding-left: 1%;
+                    }
+    
+                    .cal-box {
+                        background-position: center;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        width: 2.5%;
+                        height: 2.5%;
+                        position: absolute;
+                        right: 30%;
+                        bottom: 5%;
+                        display: none;
+                    }
+                }
+    
+                .checkout-box {
+                    display: block;
+                    position: relative;
+    
+                    .check2 {
+    
+                    }
+    
+                    .checkin2 {
+                        height: 7.5%;
+                        width: 65%;
+                        border: 2px solid;
+                        border-color: $site-blue;
+                        font-family: GillSansregular;
+                        font-size: 18px;
+                        margin-bottom: 2%;
+                        padding-left: 1%;
+                    }
+    
+                    .cal-box {
+                        background-position: center;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        width: 2.5;
+                        height: 2.5;
+                        position: absolute;
+                        right: 30%;
+                        bottom: 5%;
+                        display: none;
+                    }
+                }
+    
+                .party-size {
+    
+                    .party-padding {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        margin-bottom: 20px;
+                        width: 26%;
+                        flex-wrap: wrap;
+    
+                        .party-input-box {
+                            position: relative;
+                            margin-bottom: 2%;
+                        }
+    
+                        .party-label {
+                            margin-right: 82px;
+                        }
+    
+                        .party-input {
+                            height: 7.5%;
+                            width: 13%;
+                            border: 2px solid;
+                            border-color: $site-blue;
+                            font-family: GillSansregular;
+                            font-size: 18px;
+                            padding-left: 1%
+                        }
+                    }
+    
+                    .arrow i{
+                        background-position: center;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        width: 2.5%;
+                        height: 2.5%;
+                        position: absolute;
+                        left: 8%;
+                        bottom: 2%;
+                    }
+                }
+    
+                .message-box {
+    
+                    .message {
+                        height: 25%;
+                        width: 65%;
+                        border: 2px solid;
+                        border-color: $site-blue;
+                        font-family: GillSansregular;
+                        font-size: 18px;
+                        padding-bottom: 14%;
+                        padding-left: 2%;
+                        margin-bottom: 2%;
+                    }
+                }
+    
+                .submit-box {
+                    margin-bottom: 100px;
+    
+                    .submit {
+                        width: 78%;
+                        height: 9.5%;
+                        background-color: $site-blue;
+                        border-radius: 3%;
+                        text-align: center;
+                        padding-top: 3%;
+                        font-size: 15px;
+                        font-family: GillSansregular;
+                        color: $site-white;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+    }
+}

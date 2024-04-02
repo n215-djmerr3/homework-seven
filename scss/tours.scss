@@ -1,0 +1,479 @@
+.tours {
+    .wrapper {
+        max-width: 100%;
+        margin: 0 auto;
+        .hero {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tours-header.jpg);
+            width: 70%;
+            height: 300px; //can't get it to work with a percent
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0 auto;
+            margin-top: 50px;
+            margin-bottom: 80px;
+            font-family: GillSans-LightItalic;
+        }
+    
+        .hero-textbox {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding-top: 120px;
+    
+    
+    
+            .heading {
+                font-size: 60px;
+                color: $site-white;
+                font-family: GillSans-LightItalic;
+    
+            }
+    
+        }
+        
+        .specials {
+            width: $content-width;
+            margin: 0 auto 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 80px;
+            
+    
+            .box1 {
+                height: 380px;
+                width: 50%;
+                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/content1.jpg);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                margin-right: 50px;
+    
+                .box1-text {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    padding-top: 18%;
+                    font-family: GillSans-LightItalic;
+    
+    
+                    .location {
+                        font-size: 40px;
+                        font-family: GillSans-LightItalic;
+                        color: $site-white;
+                    }
+    
+                    .price {
+                        font-size: 20px;
+                        font-family: ProximaNova;
+                        color: $site-white;
+                        padding-bottom: 35%;
+                    }
+    
+                    .learn-more {
+                        width: 60%;
+                        height: 40px;
+                        background-color: $site-blue;
+                        border-radius: 20px;
+                        text-align: center;
+                        padding-top: 4.5%;
+                    }
+    
+                    .learn-more a {
+                        text-decoration: none;
+                        color: $site-white;
+                    }
+                }
+            }
+    
+            .box2 {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/content2.jpg);
+                height: 380px;
+                width: 50%;
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+    
+                .box1-text {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    padding-top: 18%;
+                    font-family: GillSans-LightItalic;
+    
+                    .location {
+                        font-size: 40px;
+                        font-family: GillSans-LightItalic;
+                        color: $site-white;
+                    }
+    
+                    .price {
+                        font-size: 20px;
+                        font-family: GillSans-LightItalic;
+                        color: $site-white;
+                        padding-bottom: 35%;
+                    }
+    
+                    .learn-more {
+                        width: 60%;
+                        height: 40px;
+                        background-color: $site-blue;
+                        border-radius: 20px;
+                        text-align: center;
+                        padding-top: 4.5%;
+    
+                    }
+    
+                    .learn-more a {
+                        text-decoration: none;
+                        color: $site-white;
+                    }
+                }
+            }
+    
+            .box3 {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/content3.jpg);
+                height: 380px;
+                width: 50%;
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                margin-left: 50px;
+    
+                .box1-text {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    padding-top: 18%;
+                    font-family: GillSans-LightItalic;
+    
+                    .location {
+                        font-size: 40px;
+                        font-family: GillSans-LightItalic;
+                        color: $site-white;
+                    }
+    
+                    .price {
+                        font-size: 20px;
+                        font-family: GillSans-LightItalic;
+                        color: $site-white;
+                        padding-bottom: 35%;
+                    }
+    
+                    .learn-more {
+                        width: 60%;
+                        height: 40px;
+                        background-color: $site-blue;
+                        border-radius: 20px;
+                        text-align: center;
+                        padding-top: 4.5%;
+                    }
+    
+                    .learn-more a {
+                        text-decoration: none;
+                        color: $site-white;
+                    }
+                }
+            }
+        }
+
+        .specials2 {
+            width: $content-width;
+            margin: 0 auto 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 80px;
+    
+            .box1 {
+                height: 380px;
+                width: 40%;
+                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-04.jpg);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                margin-right: 50px;
+    
+                .box1-text {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    padding-top: 18%;
+                    font-family: GillSans-LightItalic;
+    
+                    .location {
+                        font-size: 40px;
+                        font-family: GillSans-LightItalic;
+                        color: $site-white;
+                    }
+    
+                    .price {
+                        font-size: 20px;
+                        font-family: GillSans-LightItalic;
+                        color: $site-white;
+                        padding-bottom: 35%;
+                    }
+    
+                    .learn-more {
+                        width: 60%;
+                        height: 40px;
+                        background-color: $site-blue;
+                        border-radius: 20px;
+                        text-align: center;
+                        padding-top: 4.5%;
+                    }
+    
+                    .learn-more a {
+                        text-decoration: none;
+                        color: $site-white;
+                    }
+                }
+            }
+    
+            .box2 {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-05.jpg);
+                height: 380px;
+                width: 40%;
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+    
+                .box1-text {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    padding-top: 18%;
+                    font-family: GillSans-LightItalic;
+    
+                    .location {
+                        font-size: 40px;
+                        font-family: GillSans-LightItalic;
+                        color: $site-white;
+                    }
+    
+                    .price {
+                        font-size: 20px;
+                        font-family: GillSans-LightItalic;
+                        color: $site-white;
+                        padding-bottom: 35%;
+                    }
+    
+                    .learn-more {
+                        width: 60%;
+                        height: 40px;
+                        background-color: $site-blue;
+                        border-radius: 20px;
+                        text-align: center;
+                        padding-top: 4.5%;
+    
+                    }
+    
+                    .learn-more a {
+                        text-decoration: none;
+                        color: $site-white;
+                    }
+                }
+            }
+    
+            .box3 {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-06.jpg);
+                height: 380px;
+                width: 40%;
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                margin-left: 50px;
+    
+                .box1-text {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    padding-top: 18%;
+                    font-family: GillSans-LightItalic;
+    
+                    .location {
+                        font-size: 40px;
+                        font-family: GillSans-LightItalic;
+                        color: $site-white;
+                    }
+    
+                    .price {
+                        font-size: 20px;
+                        font-family: GillSans-LightItalic;
+                        color: $site-white;
+                        padding-bottom: 35%;
+                    }
+    
+                    .learn-more {
+                        width: 60%;
+                        height: 40px;
+                        background-color: $site-blue;
+                        border-radius: 20px;
+                        text-align: center;
+                        padding-top: 4.5%;
+                    }
+    
+                    .learn-more a {
+                        text-decoration: none;
+                        color: $site-white;
+                    }
+                }
+            }
+        }
+
+        .specials3 {
+            width: $content-width;
+            margin: 0 auto 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 80px;
+    
+            .box1 {
+                height: 380px;
+                width: 40%;
+                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-07.jpg);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                margin-right: 50px;
+    
+                .box1-text {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    padding-top: 18%;
+                    font-family: GillSans-LightItalic;
+    
+                    .location {
+                        font-size: 40px;
+                        font-family: GillSans-LightItalic;
+                        color: $site-white;
+                    }
+    
+                    .price {
+                        font-size: 20px;
+                        font-family: GillSans-LightItalic;
+                        color: $site-white;
+                        padding-bottom: 35%;
+                    }
+    
+                    .learn-more {
+                        width: 60%;
+                        height: 40px;
+                        background-color: $site-blue;
+                        border-radius: 20px;
+                        text-align: center;
+                        padding-top: 4.5%;
+                    }
+    
+                    .learn-more a {
+                        text-decoration: none;
+                        color: $site-white;
+                    }
+                }
+            }
+    
+            .box2 {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-08.jpg);
+                height: 380px;
+                width: 40%;
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+    
+                .box1-text {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    padding-top: 18%;
+                    font-family: GillSans-LightItalic;
+    
+                    .location {
+                        font-size: 40px;
+                        font-family: GillSans-LightItalic;
+                        color: $site-white;
+                    }
+    
+                    .price {
+                        font-size: 20px;
+                        font-family: GillSans-LightItalic;
+                        color: $site-white;
+                        padding-bottom: 35%;
+                    }
+    
+                    .learn-more {
+                        width: 60%;
+                        height: 40px;
+                        background-color: $site-blue;
+                        border-radius: 20px;
+                        text-align: center;
+                        padding-top: 4.5%;
+    
+                    }
+    
+                    .learn-more a {
+                        text-decoration: none;
+                        color: $site-white;
+                    }
+                }
+            }
+    
+            .box3 {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-09.jpg);
+                height: 380px;
+                width: 40%;
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                margin-left: 50px;
+    
+                .box1-text {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    padding-top: 18%;
+                    font-family: GillSans-LightItalic;
+    
+                    .location {
+                        font-size: 40px;
+                        font-family: GillSans-LightItalic;
+                        color: $site-white;
+                    }
+    
+                    .price {
+                        font-size: 20px;
+                        font-family: GillSans-LightItalic;
+                        color: $site-white;
+                        padding-bottom: 35%;
+                    }
+    
+                    .learn-more {
+                        width: 60%;
+                        height: 40px;
+                        background-color: $site-blue;
+                        border-radius: 20px;
+                        text-align: center;
+                        padding-top: 4.5%;
+                    }
+    
+                    .learn-more a {
+                        text-decoration: none;
+                        color: $site-white;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,124 @@
+.blog {
+    max-width: $content-width;
+    margin: 0 auto;
+
+    .wrapper {
+
+        .blog-heading {
+            font-size: 35px;
+            font-family: GillSans-LightItalic;
+            margin-top: 10%;
+        }
+    
+        .line {
+            border: none;
+            height: 3px;
+            width: 10%;
+            background-color: black;
+            position: absolute;
+            left: 14%;
+        }
+    
+        .entry {
+    
+            .date-box {
+                margin: 1.5%;
+                width: 8%;
+                height: 70px;
+                background-color: $site-blue;
+                text-align: center;
+                padding-top: 10px;
+                color: $site-white;
+                font-family: GillSans-LightItalic;
+                margin-top: 5%;
+                margin-left: -0.5%;
+    
+                .top-date{
+                    font-size: 25px;
+                    font-weight: bold;
+                }
+    
+                .bottom-date {
+                    font-size: 20px;
+    
+                }
+            }
+    
+            
+    
+            .entry-hero {
+                background-image: url(../images/blog.jpg);
+                width: 89%;
+                height: 300px; //can't get it to work with a percent
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                margin: 0 auto;
+                margin-top: -8%;
+                margin-bottom: 80px;
+                margin-right: 1.5%;
+            }
+    
+            .entry-heading {
+                margin-top: -5%;
+                margin-left: 9%;
+                margin-bottom: 3%;
+                font-size: 20px;
+                font-family: GillSans-Italic;
+            }
+    
+            .entry-text {
+                color: $site-blue;
+                margin-left: 9%;
+                max-width: 43%;
+                margin-bottom: 15%;
+                font-family: GillSans-LightItalic;
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .blog {
+        .wrapper {
+            .entry {
+                .date-box {
+                    width: 15%;
+                }
+
+                .entry-hero {
+                    width: 100%;
+                }
+
+                .entry-heading,
+                .entry-text {
+                    margin-left: 0;
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .blog {
+        .wrapper {
+            .entry {
+                .date-box {
+                    width: 20%;
+                }
+
+                .entry-hero {
+                    margin-top: -10%;
+                    height: 200px;
+                }
+
+                .entry-heading,
+                .entry-text {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}

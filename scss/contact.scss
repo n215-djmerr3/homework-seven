@@ -1,0 +1,191 @@
+.contact {
+    max-width: $content-width;
+    margin: 0 auto;
+
+    .contact-heading {
+        font-size: 35px;
+        font-family: GillSans-LightItalic;
+        margin-top: 10%;
+    }
+
+    .line {
+        border: none;
+        height: 3px;
+        width: 13%;
+        background-color: black;
+        position: absolute;
+        left: 14.2%;
+    }
+    
+    .content {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        .content-left {
+            width: 50%;
+            margin-top: 50px;
+            margin-bottom: 80px;
+
+            .gps {
+                background-image: url(../images/gps.png);
+                    width: 80%;
+                    height: 500px; //can't get it to work with a percent
+                    background-position: center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    margin: 0 auto;
+                    margin-left: 0;
+            }
+
+            .address {
+                font-family: GillSans-LightItalic;
+                margin-top: 5%;
+                font-size: 25px;
+            }
+        }
+    
+        .content-right {
+            width: 45%;
+            
+            .form-info{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                margin-top: 11%;
+                margin-left: -15%;
+
+                .name {
+                    height: 60px;
+                    width: 100%;
+                    border: none;
+                    background-color: #F2F2F2;
+                    font-family: GillSansregular;
+                    font-size: 18px;
+                    margin-bottom: 4%;
+                    padding-left: 1%;
+                    margin-left: -15%;
+                }
+    
+                .email {
+                    height: 60px;
+                    width: 100%;
+                    border: none;
+                    background-color: #F2F2F2;
+                    font-family: GillSansregular;
+                    font-size: 18px;
+                    margin-bottom: 4%;
+                    padding-left: 1%;
+                    margin-left: -15%;
+                }
+    
+                .company {
+                    height: 60px;
+                    width: 100%;
+                    border: none;
+                    background-color: #F2F2F2;
+                    font-family: GillSansregular;
+                    font-size: 18px;
+                    margin-bottom: 4%;
+                    padding-left: 1%;
+                    margin-left: -15%;
+                }
+    
+                .message {
+                    height: 250px;
+                    width: 100%;
+                    border: none;
+                    background-color: #F2F2F2;
+                    font-family: GillSansregular;
+                    font-size: 18px;
+                    margin-bottom: 4%;
+                    padding: 15px; 
+                    margin-left: -15%;
+                }
+
+                .submit-button {
+                    margin: 1.5%;
+                    width: 30%;
+                    height: 55px;
+                    background-color: $site-blue;
+                    text-align: center;
+                    padding-top: 17px;
+                    margin-left: -20%;
+                    margin-left: -83%;
+                    a {
+                        color: $site-white;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .contact {
+        .content {
+            flex-direction: column;
+
+            .content-left,
+            .content-right {
+                width: 100%;
+                margin-left: 0;
+            }
+
+            .line {
+                left: 50%;
+                transform: translateX(-50%);
+            }
+
+            .form-info {
+                margin-left: 0;
+                width: 90%;
+
+                .name,
+                .email,
+                .company {
+                    margin-left: 0;
+                }
+
+                .submit-button {
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .contact {
+        .content {
+            .content-left,
+            .content-right {
+                width: 100%;
+                margin-left: 0;
+            }
+
+            .line {
+                left: 50%;
+                transform: translateX(-50%);
+            }
+
+            .form-info {
+                margin-left: 0;
+                width: 90%;
+
+                .name,
+                .email,
+                .company {
+                    margin-left: 0;
+                }
+
+                .submit-button {
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+}

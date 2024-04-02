@@ -1,0 +1,225 @@
+.tour-package5 {
+    .wrapper {
+        max-width: 100%;
+        margin: 0 auto;
+        .hero {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-05.jpg);
+            width: 70%;
+            height: 550px; //can't get it to work with a percent
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0 auto;
+            margin-top: 50px;
+            margin-bottom: 80px;
+        }
+    
+        .hero-textbox {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding-top: 120px;
+            font-family: GillSans-LightItalic;    
+    
+    
+            .heading {
+                font-size: 60px;
+                color: $site-white;
+                font-family: GillSans-LightItalic;
+                position: absolute;
+                margin-left: -20%;
+                margin-top: -5%;
+            }
+
+            .hero-price {
+                font-size: 25px;
+                color: $site-white;
+                font-family: GillSans-LightItalic;
+                position: absolute;
+                margin-right: -35%;
+                margin-bottom: -55%;
+            }
+    
+        }
+        
+        .specials {
+            max-width: 70%;
+            margin: 0 auto 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 80px;
+            
+            
+    
+            .box1 {
+                height: 450px;
+                width: 55%;
+                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-france/france-tour-01.jpg);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                margin-right: 50px;
+            }
+    
+            .box2 {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-france/france-tour-02.jpg);
+                height: 450px;
+                width: 55%;
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+
+            }
+    
+            .box3 {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-france/france-tour-03.jpg);
+                height: 450px;
+                width: 55%;
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                margin-left: 50px;
+            }
+        }
+
+        .day1 {
+            max-width: 70%;
+            margin: 0 auto;
+
+            .day-heading {
+                font-size: 50px;
+                font-family: GillSans-LightItalic;
+            }
+
+            .day-line {
+                border: none;
+                height: 3px;
+                width: 13%;
+                left: 15%;
+                background-color: black;
+                position: absolute;
+
+            }
+
+            .day-text {
+                margin-top: 50px;
+                margin-bottom: 50px;
+                font-size: 20px;
+                font-family: GillSans-LightItalic;
+            }
+        }
+
+        .day2 {
+            max-width: 70%;
+            margin: 0 auto;
+
+            .day-heading {
+                font-size: 50px;
+                font-family: GillSans-LightItalic;
+            }
+
+            .day-line {
+                border: none;
+                height: 3px;
+                width: 13%;
+                left: 15%;
+                background-color: black;
+                position: absolute;
+
+            }
+
+            .day-text {
+                margin-top: 50px;
+                margin-bottom: 50px;
+                font-size: 20px;
+                font-family: GillSans-LightItalic;
+            }
+        }
+
+        .day3 {
+            max-width: 70%;
+            margin: 0 auto;
+
+            .day-heading {
+                font-size: 50px;
+                font-family: GillSans-LightItalic;
+            }
+
+            .day-line {
+                border: none;
+                height: 3px;
+                width: 13%;
+                left: 15%;
+                background-color: black;
+                position: absolute;
+
+            }
+
+            .day-text {
+                margin-top: 50px;
+                margin-bottom: 50px;
+                font-size: 20px;
+                font-family: GillSans-LightItalic;
+            }
+        }
+
+        .book-now {
+            margin: 0 auto;
+            width: 8%;
+            height: 45px;
+            background-color: $site-blue;
+            border-radius: 20px;
+            text-align: center;
+            padding-top: 15px;
+            margin-bottom: 100px;
+            margin-top: 100px;
+        }   
+
+        .book-now a {
+            margin:  0 auto;
+            text-decoration: none;
+            color: $site-white;
+        }
+        
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /* Styles for tablets (smaller screens) */
+    .wrapper {
+        .hero {
+            font-size: 40px; /* Decrease font size for smaller screens */
+        }
+
+        .specials {
+            flex-direction: row; /* Display boxes as row */
+            flex-wrap: wrap; /* Allow boxes to wrap on smaller screens */
+            justify-content: center; /* Center the boxes */
+            .box1, .box2, .box3 {
+                width: 90%; /* Adjust width as needed */
+                margin: 10px; /* Add margin between boxes */
+            }
+        }
+
+        .book-now {
+            width: 50%; /* Adjust width as needed */
+            font-size: 14px; /* Decrease font size for smaller screens */
+        }
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    /* Styles for mobile devices */
+    .wrapper {
+        .hero {
+            font-size: 30px; /* Decrease font size further for mobile */
+        }
+
+        .book-now {
+            width: 80%; /* Adjust width as needed for smaller screens */
+            font-size: 12px; /* Decrease font size for mobile */
+        }
+    }
+}
