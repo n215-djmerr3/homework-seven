@@ -1,0 +1,16 @@
+{
+  "name": "homework-seven",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "echo \"Error: no test specified\" && exit 1",
+    "serve": "live-server"
+  },
+  "keywords": [],
+  "author": "DJ Merrell",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.72.0"
+  }
+}
